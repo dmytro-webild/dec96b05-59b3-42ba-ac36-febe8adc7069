@@ -148,7 +148,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplit
       tag="Let's Make It Official"
-      title="Contact Andrew"
+      title=" "
       description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Reach out via text or email below."
       background={{ variant: "plain" }}
       useInvertedBackground={false}
