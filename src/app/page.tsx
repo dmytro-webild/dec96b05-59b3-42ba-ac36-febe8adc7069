@@ -43,7 +43,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplit
       background={{ variant: "sparkles-gradient" }}
-      title="Your Love Story Deserves a Ceremony That Feels Like You"
+      title="Your  V "
       description="Personal, meaningful, and affordable wedding ceremonies across the Shenandoah Valley—crafted with care by a family man who understands what truly matters."
       buttons={[{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }]}
       imageSrc="http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg?_wi=1"
