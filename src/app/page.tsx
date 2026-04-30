@@ -43,7 +43,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplit
       background={{ variant: "sparkles-gradient" }}
-      title="Your  V "
+      title="Your V"
       description="Personal, meaningful, and affordable wedding ceremonies across the Shenandoah Valley—crafted with care by a family man who understands what truly matters."
       buttons={[{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }]}
       imageSrc="http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg?_wi=1"
@@ -152,10 +152,8 @@ export default function LandingPage() {
       description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Reach out via text or email below."
       background={{ variant: "plain" }}
       useInvertedBackground={false}
-      buttons={[
-        { text: "Text Andrew", href: "sms:5404212440" },
-        { text: "Email Andrew", href: "mailto:Andrewhorn94@gmail.com" }
-      ]}
+      buttonText="Text/Email Andrew"
+      onSubmit={(email) => console.log(email)}
     />
   </div>
 
