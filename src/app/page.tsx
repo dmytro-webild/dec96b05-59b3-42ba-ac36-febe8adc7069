@@ -150,6 +150,8 @@ export default function LandingPage() {
       tag="Let's Make It Official"
       title="Contact Andrew"
       description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Click below to reach out."
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
     />
   </div>
 
