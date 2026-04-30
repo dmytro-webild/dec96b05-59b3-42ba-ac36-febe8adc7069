@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardTwentyEight from '@/components/sections/feature/FeatureCardTwentyEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
@@ -146,17 +146,12 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplit
-      useInvertedBackground={false}
-      background={{ variant: "plain" }}
+      <ContactCenter
       tag="Let's Make It Official"
       title="Contact Andrew"
-      description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Fill out the form or reach out directly."
-      imageSrc="http://img.b2bpic.net/free-photo/beautiful-picture-ginger-female-with-pure-white-skin-attractive-light-pink-gown_181624-30948.jpg?_wi=2"
-      mediaPosition="left"
-      mediaAnimation="slide-up"
-      buttonText="Check Availability"
-      onSubmit={(email) => window.location.href = "tel:5404212440"}
+      description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Click below to reach out."
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
     />
   </div>
 
