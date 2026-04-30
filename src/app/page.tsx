@@ -71,7 +71,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       title="Meet Andrew"
-      description="Hi, I’m Andrew Horn—a husband, father of two, and wedding officiant who believes the most meaningful ceremonies are the ones that feel real. I work with you to create a ceremony that reflects your story—not a script pulled off the internet."
+      description="Hi, I’m Andrew Horn—a father of two and wedding officiant who believes the most meaningful ceremonies are the ones that feel real. I work with you to create a ceremony that reflects your story—not a script pulled off the internet."
       bulletPoints={[
         { title: "Family-First Values", description: "Committed to the bonds that matter most." },
         { title: "Personalized Approach", description: "No cookie-cutter scripts, just your unique story." },
