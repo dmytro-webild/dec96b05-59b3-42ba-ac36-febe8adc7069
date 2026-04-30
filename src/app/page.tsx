@@ -9,7 +9,6 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import ContactSplit from '@/components/sections/contact/ContactSplit';
 
 export default function LandingPage() {
   return (
@@ -34,7 +33,6 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "Process", id: "process" },
         { name: "Pricing", id: "pricing" },
-        { name: "Contact", id: "contact" },
       ]}
       brandName="Andrew Horn"
     />
@@ -145,22 +143,10 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact" data-section="contact">
-      <ContactSplit
-      tag="Let's Make It Official"
-      title=" "
-      description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Reach out via text or email below."
-      background={{ variant: "plain" }}
-      useInvertedBackground={false}
-      buttonText="Text/Email Andrew"
-      onSubmit={(email) => console.log(email)}
-    />
-  </div>
-
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        { items: [{ label: "Home", href: "#hero" }, { label: "Services", href: "#services" }, { label: "Contact", href: "#contact" }] },
+        { items: [{ label: "Home", href: "#hero" }, { label: "Services", href: "#services" }] },
         { items: [{ label: "Shenandoah Valley, VA", href: "#" }, { label: "Available for Travel", href: "#" }] },
         { items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] }
       ]}
