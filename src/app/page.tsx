@@ -10,7 +10,6 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 
 export default function LandingPage() {
   return (
@@ -71,7 +70,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       title="Meet Andrew"
-      description="Planning a wedding should be a joy, not a source of stress. My personalized approach is designed entirely around you, handling every detail with care so you can focus on the moments that matter most—your love and your future together."
+      description="I specialize in creating a ceremony experience that is uniquely yours, removing the stress and uncertainty of wedding planning with a personalized, guided approach that puts your journey and your peace of mind first."
       bulletPoints={[
         { title: "Family-First Values", description: "Committed to the bonds that matter most." },
         { title: "Personalized Approach", description: "No cookie-cutter scripts, just your unique story." },
@@ -111,22 +110,6 @@ export default function LandingPage() {
       ]}
       title="More Than Just an Officiant"
       description="This is one of the most important moments of your life—you deserve someone who treats it that way."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFive
-      textboxLayout="split"
-      useInvertedBackground={false}
-      testimonials={[
-        { id: "1", name: "Sarah Miller", date: "June 2023", title: "Bride", quote: "Andrew made our ceremony feel so personal and genuine—it was perfect.", tag: "Personal", avatarSrc: "http://img.b2bpic.net/free-photo/couple-holding-hands-looking-apple-orchard_107420-12217.jpg", imageSrc: "http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg?_wi=2", imageAlt: "happy bride and groom portrait candid" },
-        { id: "2", name: "James Wilson", date: "May 2023", title: "Groom", quote: "He took all the stress out of the process and made everything easy.", tag: "Stress-free", avatarSrc: "http://img.b2bpic.net/free-photo/couple-love-kissing-nature-travel-mountains_1328-1862.jpg", imageSrc: "http://img.b2bpic.net/free-photo/young-man-woman-smartly-dressed-with-bouquet-exotic-flowers-are-walking-woods-date-nature_169016-13895.jpg?_wi=2", imageAlt: "happy bride and groom portrait candid" },
-        { id: "3", name: "Emma Davis", date: "April 2023", title: "Bride", quote: "We couldn’t have asked for a better officiant for our day.", tag: "Excellent", avatarSrc: "http://img.b2bpic.net/free-photo/couple-newlyweds-smiling-groom-covering-bride-s-eyes-with-hands_176420-2253.jpg", imageSrc: "http://img.b2bpic.net/free-photo/young-couple-making-photos-forest_1303-22427.jpg", imageAlt: "happy bride and groom portrait candid" },
-        { id: "4", name: "Chris Taylor", date: "March 2023", title: "Groom", quote: "Professional, kind, and incredibly helpful throughout.", tag: "Highly Recommended", avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-wedding-couple-posing-forest_1153-5968.jpg", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-picture-ginger-female-with-pure-white-skin-attractive-light-pink-gown_181624-30948.jpg?_wi=1", imageAlt: "happy bride and groom portrait candid" },
-        { id: "5", name: "Jessica Lee", date: "February 2023", title: "Bride", quote: "Andrew was a dream to work with—so accommodating and warm.", tag: "Wonderful", avatarSrc: "http://img.b2bpic.net/free-photo/happy-couple-smiling_1153-105.jpg", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-couple-love-black-wear_624325-273.jpg", imageAlt: "happy bride and groom portrait candid" }
-      ]}
-      title="Kind Words from Couples"
-      description="I'm honored to have been part of so many beautiful journeys."
     />
   </div>
 
