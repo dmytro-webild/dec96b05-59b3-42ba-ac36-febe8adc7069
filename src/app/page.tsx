@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardTwentyEight from '@/components/sections/feature/FeatureCardTwentyEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
@@ -10,6 +9,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import SplitAbout from '@/components/sections/about/SplitAbout';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 
 export default function LandingPage() {
   return (
@@ -146,12 +146,16 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCenter
+      <ContactSplit
       tag="Let's Make It Official"
       title="Contact Andrew"
-      description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Click below to reach out."
+      description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Reach out via text or email below."
       background={{ variant: "plain" }}
       useInvertedBackground={false}
+      buttons={[
+        { text: "Text Andrew", href: "sms:5404212440" },
+        { text: "Email Andrew", href: "mailto:Andrewhorn94@gmail.com" }
+      ]}
     />
   </div>
 
