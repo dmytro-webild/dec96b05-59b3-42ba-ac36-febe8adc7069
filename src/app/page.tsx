@@ -77,7 +77,7 @@ export default function LandingPage() {
         { title: "Travel Friendly", description: "Proudly serving the entire Shenandoah Valley." }
       ]}
       buttons={[{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-man-woman-smartly-dressed-with-bouquet-exotic-flowers-are-walking-woods-date-nature_169016-13895.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777515638465-ayxnkbwj.jpg"
       mediaAnimation="slide-up"
     />
   </div>
