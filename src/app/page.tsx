@@ -101,7 +101,7 @@ export default function LandingPage() {
       <FeatureCardTwentyEight
       animationType="slide-up"
       textboxLayout="split"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       features={[
         { id: "b1", title: "Genuine Connection", subtitle: "Care", category: "Personal", value: "You won't feel like just another booking." },
         { id: "b2", title: "Calm Professionalism", subtitle: "Presence", category: "Reliable", value: "A steady hand on your big day." },
@@ -110,6 +110,8 @@ export default function LandingPage() {
       ]}
       title="More Than Just an Officiant"
       description="This is one of the most important moments of your life—you deserve someone who treats it that way."
+      containerClassName="pt-12 pb-8"
+      textBoxDescriptionClassName="text-2xl font-bold leading-tight"
     />
   </div>
 
