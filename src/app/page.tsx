@@ -76,7 +76,6 @@ export default function LandingPage() {
         { title: "Personalized Approach", description: "No cookie-cutter scripts, just your unique story." },
         { title: "Travel Friendly", description: "Proudly serving the entire Shenandoah Valley." }
       ]}
-      buttons={[{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777515638465-ayxnkbwj.jpg"
       mediaAnimation="slide-up"
     />
@@ -88,10 +87,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { id: "1", title: "Wedding Ceremonies", subtitle: "Full Ceremony", category: "Standard", value: "Custom-written and tailored to your tone.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] },
-        { id: "2", title: "Elopements", subtitle: "Intimate Day", category: "Quick", value: "Beautiful ceremonies without the stress.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] },
-        { id: "3", title: "Vow Renewals", subtitle: "Recommitment", category: "Heartfelt", value: "Celebrate your journey together.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] },
-        { id: "4", title: "Travel Included", subtitle: "Valley-wide", category: "Local", value: "I’ll come to your chosen location.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] }
+        { id: "1", title: "Wedding Ceremonies", subtitle: "Full Ceremony", category: "Standard", value: "Custom-written and tailored to your tone." },
+        { id: "2", title: "Elopements", subtitle: "Intimate Day", category: "Quick", value: "Beautiful ceremonies without the stress." },
+        { id: "3", title: "Vow Renewals", subtitle: "Recommitment", category: "Heartfelt", value: "Celebrate your journey together." },
+        { id: "4", title: "Travel Included", subtitle: "Valley-wide", category: "Local", value: "I’ll come to your chosen location." }
       ]}
       title="Simple, Meaningful, Stress-Free"
       description="Professional services tailored to your specific needs and vision."
@@ -104,10 +103,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       features={[
-        { id: "b1", title: "Genuine Connection", subtitle: "Care", category: "Personal", value: "You won't feel like just another booking.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] },
-        { id: "b2", title: "Calm Professionalism", subtitle: "Presence", category: "Reliable", value: "A steady hand on your big day.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] },
-        { id: "b3", title: "Clear Communication", subtitle: "Process", category: "Transparent", value: "Support from start to finish.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] },
-        { id: "b4", title: "Transparent Pricing", subtitle: "Fair", category: "Value", value: "Clear costs, no hidden surprises.", buttons: [{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }] }
+        { id: "b1", title: "Genuine Connection", subtitle: "Care", category: "Personal", value: "You won't feel like just another booking." },
+        { id: "b2", title: "Calm Professionalism", subtitle: "Presence", category: "Reliable", value: "A steady hand on your big day." },
+        { id: "b3", title: "Clear Communication", subtitle: "Process", category: "Transparent", value: "Support from start to finish." },
+        { id: "b4", title: "Transparent Pricing", subtitle: "Fair", category: "Value", value: "Clear costs, no hidden surprises." }
       ]}
       title="More Than Just an Officiant"
       description="This is one of the most important moments of your life—you deserve someone who treats it that way."
@@ -127,7 +126,6 @@ export default function LandingPage() {
       ]}
       sideTitle="How It Works"
       sideDescription="Clear, easy steps to ensure your ceremony is exactly as you imagined."
-      buttons={[{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }]}
       faqsAnimation="slide-up"
     />
   </div>
