@@ -150,10 +150,6 @@ export default function LandingPage() {
       tag="Let's Make It Official"
       title="Contact Andrew"
       description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Click below to reach out."
-      buttons={[
-        { text: "Send a Text", onClick: () => window.location.href = "sms:5404212440" },
-        { text: "Send an Email", onClick: () => window.location.href = "mailto:Andrewhorn94@gmail.com" }
-      ]}
     />
   </div>
 
