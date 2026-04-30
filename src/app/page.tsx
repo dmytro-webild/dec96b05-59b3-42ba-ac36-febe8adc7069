@@ -76,7 +76,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg?_wi=1"
       mediaAnimation="blur-reveal"
       avatars={[
         {
@@ -145,7 +145,7 @@ export default function LandingPage() {
           description: "Proudly serving the entire Shenandoah Valley.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-man-woman-smartly-dressed-with-bouquet-exotic-flowers-are-walking-woods-date-nature_169016-13895.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/young-man-woman-smartly-dressed-with-bouquet-exotic-flowers-are-walking-woods-date-nature_169016-13895.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -242,7 +242,7 @@ export default function LandingPage() {
           quote: "Andrew made our ceremony feel so personal and genuine—it was perfect.",
           tag: "Personal",
           avatarSrc: "http://img.b2bpic.net/free-photo/couple-holding-hands-looking-apple-orchard_107420-12217.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg?_wi=2",
           imageAlt: "happy bride and groom portrait candid",
         },
         {
@@ -253,7 +253,7 @@ export default function LandingPage() {
           quote: "He took all the stress out of the process and made everything easy.",
           tag: "Stress-free",
           avatarSrc: "http://img.b2bpic.net/free-photo/couple-love-kissing-nature-travel-mountains_1328-1862.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-woman-smartly-dressed-with-bouquet-exotic-flowers-are-walking-woods-date-nature_169016-13895.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-man-woman-smartly-dressed-with-bouquet-exotic-flowers-are-walking-woods-date-nature_169016-13895.jpg?_wi=2",
           imageAlt: "happy bride and groom portrait candid",
         },
         {
@@ -275,7 +275,7 @@ export default function LandingPage() {
           quote: "Professional, kind, and incredibly helpful throughout.",
           tag: "Highly Recommended",
           avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-wedding-couple-posing-forest_1153-5968.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-picture-ginger-female-with-pure-white-skin-attractive-light-pink-gown_181624-30948.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-picture-ginger-female-with-pure-white-skin-attractive-light-pink-gown_181624-30948.jpg?_wi=1",
           imageAlt: "happy bride and groom portrait candid",
         },
         {
@@ -395,7 +395,7 @@ export default function LandingPage() {
       tag="Let's Make It Official"
       title="Contact Andrew"
       description="Your wedding ceremony should feel effortless, meaningful, and unforgettable. Let's create something that truly represents you. Fill out the form or reach out directly."
-      imageSrc="http://img.b2bpic.net/free-photo/beautiful-picture-ginger-female-with-pure-white-skin-attractive-light-pink-gown_181624-30948.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/beautiful-picture-ginger-female-with-pure-white-skin-attractive-light-pink-gown_181624-30948.jpg?_wi=2"
       mediaPosition="left"
       mediaAnimation="slide-up"
     />
