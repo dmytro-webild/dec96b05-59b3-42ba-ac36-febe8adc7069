@@ -41,17 +41,17 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplit
       background={{ variant: "sparkles-gradient" }}
-      title="Your V"
+      title="Your Vows, Your way"
       description="Personal, meaningful, and affordable wedding ceremonies across the Shenandoah Valley—crafted with care by a family man who understands what truly matters."
       buttons={[{ text: "Check Availability", onClick: () => window.location.href = "tel:5404212440" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/view-love-friendly-sun-female_1304-2661.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777515679210-pip9lgr4.jpg"
       mediaAnimation="blur-reveal"
       avatars={[
-        { src: "http://img.b2bpic.net/free-photo/beautiful-couple-love-black-wear_624325-273.jpg", alt: "beautiful couple in love in black wear" },
-        { src: "http://img.b2bpic.net/free-photo/back-view-couple-holding-hands-outdoors_23-2149609652.jpg", alt: "Back view couple holding hands outdoors" },
-        { src: "http://img.b2bpic.net/free-photo/romantic-engagement-happiness-couple-elegance_1153-2195.jpg", alt: "romantic engagement happiness couple elegance" },
-        { src: "http://img.b2bpic.net/free-photo/newlyweds-looking-sunset-posing-hill_8353-12613.jpg", alt: "Newlyweds looking at sunset posing on hill" },
-        { src: "http://img.b2bpic.net/free-photo/couple-holding-hands-looking-apple-orchard_107420-12217.jpg", alt: "happy bride and groom portrait candid" }
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777516670440-iejynm4e.jpg", alt: "beautiful couple in love in black wear" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777517100794-1ur2rrgo.jpg", alt: "Back view couple holding hands outdoors" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777516871941-sz65an64.jpg", alt: "romantic engagement happiness couple elegance" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777516892715-mmlap9n9.jpg", alt: "Newlyweds looking at sunset posing on hill" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D3cyxYfyDl3PXKxSvPUyuuS3Iy/uploaded-1777517100794-1ur2rrgo.jpg", alt: "happy bride and groom portrait candid" }
       ]}
       marqueeItems={[
         { type: "text", text: "Shenandoah Valley Based" },
@@ -68,7 +68,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       title="Meet Andrew"
-      description="I specialize in creating a ceremony experience that is uniquely yours, removing the stress and uncertainty of wedding planning with a personalized, guided approach that puts your journey and your peace of mind first."
+      description="I am a dedicated realtor and wedding officiant with a passion for helping people find their dream home, celebrate life's most special moments, as a father of two boys I understand the importance of creating lasting memories with a background and many different traits. I bring a unique perspective with the real estate market and wedding ceremonies offering clients personalized guidance and expert advice. "
       bulletPoints={[
         { title: "Family-First Values", description: "Committed to the bonds that matter most." },
         { title: "Personalized Approach", description: "No cookie-cutter scripts, just your unique story." },
